@@ -1,0 +1,14 @@
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/NewYoutube.csprojAssemblyReference.cache
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/Views/AddItemPage.xaml.g.cs
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/Views/DetailPage.xaml.g.cs
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/NewYoutube.csproj.CoreCompileInputs.cache
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/NewYoutube.AssemblyInfoInputs.cache
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/NewYoutube.AssemblyInfo.cs
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/bin/Debug/netstandard2.0/NewYoutube.deps.json
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/bin/Debug/netstandard2.0/NewYoutube.dll
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/bin/Debug/netstandard2.0/NewYoutube.pdb
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/NewYoutube.dll
+/Users/ianschoenrock/Projects/NewYoutube/NewYoutube/obj/Debug/netstandard2.0/NewYoutube.pdb

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NewYoutube.Views.AddItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding ItemEntry, Mode=TwoWay}"/>  
+            <Button Text="Add" Command="{Binding AddCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

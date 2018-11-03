@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:NewYoutube" x:Class="NewYoutube.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Item" Command="{Binding AddItemCommand}"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        
+             
+        <ListView x:Name="list" ItemsSource="{Binding Names}" HasUnevenRows="true" SeparatorVisibility="None"
+                  SelectedItem="{Binding SelectedPerson}" >
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="30">
+                            <StackLayout>
+                                <Label Text="{Binding Name}"/>
+                                <Slider />
+                                <Switch/>
+                            </StackLayout>
+                        </Frame>
+                        <ViewCell.ContextActions>
+                            <MenuItem
+                                Text="Delete"
+                                IsDestructive="true"
+                                Command="{Binding Path=BindingContext.DeletePersonCommand, Source={x:Reference list}"
+                                CommandParameter="{Binding .}"/>
+                        </ViewCell.ContextActions>
+                   </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView> 
+    </StackLayout>
+</ContentPage>
